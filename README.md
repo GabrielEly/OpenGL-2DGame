@@ -5,9 +5,11 @@ Autores: Gabriel Ely Konrath, Guilherme Closs Fraga e Felipe Veronezi Peters.
 
 ## Instruções para compilar o jogo:
 - Fazer o download ou clone do repositório;
-- Abrir a solução ArquitetoVoador.sln (pode ser encontrada dentro da pasta baixada ou clonada OpenGL-2DGame-main/ArquitetoVoador) no Visual Studio 2019;
-- Verificar o modo de Debug da solução, este deve estar em "x86" na barra de feramentas superior do Visual Studio. Caso não esteja, deverá ser mudado para "x86";
-- Clicar em "Depurar Local do Windows" na barra de ferramentas superior do Visual Studio ou depurar através do atalho F5 para executar a aplicação.
+- Abrir a solução `ArquitetoVoador.sln` (pode ser encontrada dentro da pasta baixada ou clonada `OpenGL-2DGame-main/ArquitetoVoador`) no Visual Studio 2019;
+- Verificar o modo de Debug da solução, este deve estar em `x86` na barra de feramentas superior do Visual Studio. Caso não esteja, deverá ser mudado para `x86`;
+- Clicar em `Depurar Local do Windows` na barra de ferramentas superior do Visual Studio ou depurar através do atalho `F5` para executar a aplicação.
+
+OBS.: Caso apareça algum erro de shader, modifique o número versão do core na primeira linha dos arquivos `sprite.frag` e `sprite.vs`, para uma inferior, exemplo: `#version 400 core`, ou menor;
 
 ### Informações sobre o código:
 Código usado é C++ juntamente com o OpenGL e GLSL, e as bibliotecas adicionais GLEW, GLFW, GLM, irrKlang e SOIL.
