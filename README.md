@@ -1,4 +1,4 @@
-# OpengGL-2DGame
+# OpenGL-2DGame
 ## Arquiteto Voador
 Jogo feito em OpenGL para a disciplina de Processamento Gráfico de 2021.
 
