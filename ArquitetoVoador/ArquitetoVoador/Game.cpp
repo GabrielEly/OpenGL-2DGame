@@ -233,6 +233,7 @@ void Game::ProcessInput(GLfloat dt, bool cooldown)
 		numLives = 3;
 		ammo = 3;
 		indexBullets = 0;
+		points = 0;
 		once = true;
 		SoundEngine2->play2D("audio/press.mp3", false);
 	}
@@ -250,6 +251,7 @@ void Game::ProcessInput(GLfloat dt, bool cooldown)
 		numLives = 3;
 		ammo = 3;
 		indexBullets = 0;
+		points = 0;
 		once = true;
 		SoundEngine2->play2D("audio/press.mp3", false);
 	}
