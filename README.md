@@ -4,6 +4,8 @@ Jogo feito em OpenGL para a disciplina de Processamento Gráfico de 2021.
 
 Autores: Gabriel Ely Konrath, Guilherme Closs Fraga e Felipe Veronezi Peters.
 
+Vídeo sobre: https://youtu.be/S7Yv5O_p7Cw
+
 ### Instruções para compilar o jogo:
 - Fazer o download ou clone do repositório;
 - Abrir a solução `ArquitetoVoador.sln` (pode ser encontrada dentro da pasta baixada ou clonada `OpenGL-2DGame-main/ArquitetoVoador`) no Visual Studio 2019;
